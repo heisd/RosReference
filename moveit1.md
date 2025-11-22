@@ -108,11 +108,25 @@ export LIBGL_ALWAYS_SOFTWARE=1 && source ~/moveit_ws/install/setup.zsh && /opt/r
 来试着解决一下这个问题
 它给我们的思路比较暴力卸载rviz2降级rviz2的版本来进行操作，可能是rviz2的版本太高了
 其中要处理一下rosdep的问题,因为这个问题和我遇见的问题一样
+使用前做的准备工作
 ```bash
 sudo apt update
 sudo apt install python3-rosdep2
 rosdep2 update
 ```
+<font color="red">这里不得不吐槽一下编译速度了🤦‍♂️</font>
+感觉超级慢
+个人估计大概编译了1 hour，以前在jetson iron nano上使用虚拟内存可以加快编译速度。
+扩展虚拟内存可以看这个文章[WSL](./wsl.md)
+这样我们就可以加快编译速度啦
+按照这个文章操作完之后，
+
+
+
+
+
+
+
 
 
 
