@@ -20,16 +20,16 @@ ros2 launch moveit_setup_assistant setup_assistant.launch.py
 ```
 ### 之后弹出这个弹窗，让我们选择urdf文件
 
-![image](./picture/moveit.png)
+![image](./picture/moveit/moveit.png)
 
 ### 选择我们刚刚生成的urdf文件ur5e.urdf，之后点击Load按钮出现这个界面
 
-![image](./picture/moveit2.png)
+![image](./picture/moveit/moveit2.png)
 
 ### 下面我们就可以对moveit进行初始化啦点击self collisions 
 选择generate collision matrix 创建碰撞矩阵
 
-![image](./picture/moveit3.png)
+![image](./picture/moveit/moveit3.png)
 
 ### 下一步添加虚拟关节，分成两种情况
 #### 一种是固定底座的机器人 
@@ -37,7 +37,7 @@ ros2 launch moveit_setup_assistant setup_assistant.launch.py
 #### 一种是在小车等移动底座的机器人->点击add virtual joint
 设置如下图所示
 
-![image](./picture/virtual.png)
+![image](./picture/moveit/virtual.png)
 
 点击save进入下一步
 
@@ -45,7 +45,7 @@ ros2 launch moveit_setup_assistant setup_assistant.launch.py
 #### 添加运动链条选择基坐标系和末端坐标系
 设置如图
 
-![image](./picture/planningGroup.png)
+![image](./picture/moveit/planningGroup.png)
 
 #### 添加关节，修复完成之后
 
@@ -140,26 +140,26 @@ rosdep2 update
 # 使用moveit_ws里的包来运行
 ## 1.生成碰撞矩阵(和上一个包类似)
 ## 2.添加虚拟关节
-![virtual joint](./picture/moveit4.png)
+![virtual joint](./picture/moveit/moveit4.png)
 ## 3.添加计划组(主要是添加关节)
 下面是添加运动链条和关节的区别
 ### 添加运动链(Add Kin.Chain)和添加关节(Add joints)的区别：
 #### 添加运动链：在机器人学中，运动链指的是从一个固定的基座到末端执行器之间的一系列通过关节连接起来的连杆。当你选择“添加运动链”时，你实际上是在定义一个从根节点到末端执行器的连续运动路径。这个选项允许你指定整个链条上的所有关节和连杆，这对于设置机械臂的整体运动范围非常有用。
 #### 添加关节：关节是连接两个刚体（通常是连杆）的元素，允许它们相对于彼此移动。根据关节类型的不同（旋转关节、棱形关节等），它可以提供一维或多维的自由度。当你选择“添加关节”时，你关注的是单独的可动点，即单个关节，而不是一系列连杆和关节组成的完整链条。这种方式更适合于需要对某个特定关节进行详细配置的情况。
 下面是配置关节的图片
-![](./picture/PlanningGroup1.png)
+![](./picture/moveit/PlanningGroup1.png)
 添加完成之后结果如下
-![](./picture/PlanningGroup2.png)
+![](./picture/moveit/PlanningGroup2.png)
 ## 4.添加机器人姿势
 之后我们可以使用moveit api 使得机器人到达这个位置
 设置上次在计划组panda_arm和hand的机器人位姿设计如下
 ### panda_arm
-![](./picture/RobotPose1.png)
+![](./picture/moveit/RobotPose1.png)
 ### hand
-![](./picture/RobotPose2.png)
+![](./picture/moveit/RobotPose2.png)
 ## 5.标记末端执行器
 具体设置如下
-![](./picture/EndEffectors.png)
+![](./picture/moveit/EndEffectors.png)
 ## 6.添加被动关节
 在对于这个Panda机械臂来说，没有任何被动关节，所以这个步骤可以跳过
 “被动关节”窗格旨在指定机器人中可能存在的任何被动关节。这些关节是非驱动关节，这意味着它们无法直接控制。指定被动关节非常重要，这样规划器才能感知到它们的存在，并避免为其进行规划。如果规划器不知道被动关节的存在，它们可能会尝试规划涉及移动被动关节的轨迹，从而导致规划无效。Panda 机械臂没有任何被动关节，因此我们将跳过此步骤。
@@ -167,26 +167,26 @@ rosdep2 update
 就是把上次的URDF给一个编辑框，也不需要进行编写
 ## 8.ROS2控制器
 操作如下
-![ROS2Controller1](./picture/ROS2Controller1.png)
-![ROS2Controller2](./picture/ROS2Controller2.png)
-![ROS2Controller3](./picture/ROS2Controller3.png)
+![ROS2Controller1](./picture/moveit/ROS2Controller1.png)
+![ROS2Controller2](./picture/moveit/ROS2Controller2.png)
+![ROS2Controller3](./picture/moveit/ROS2Controller3.png)
 同样也要把配置文件放在规划组下hand
 结果如下图所示
-![ROS2Controller4](./picture/ROS2Controller4.png)
+![ROS2Controller4](./picture/moveit/ROS2Controller4.png)
 ## 9.Moveit控制器
-![MoveitController1](./picture/MoveitController1.png)
+![MoveitController1](./picture/moveit/MoveitController1.png)
 同样也要把配置文件放在规划组下panda_arm
-![MoveitController2](./picture/MoveitController2.png)
+![MoveitController2](./picture/moveit/MoveitController2.png)
 同样也要把配置文件放在规划组下hand
 ## 10.setup 3D Perception Sensor
 设置助手中的“感知”选项卡用于配置机器人使用的 3D 传感器。这些设置保存在名为sensor_3d.yaml的 YAML 配置文件中。
 具体可以设置深度相机，或者激光雷达。
 如果不需要sensors_3d.yaml ，请选择“无”并继续下一步。
 要生成point_cloud配置参数，请参见以下示例：
-![pointcloud](./picture/3DPerceptionSensors.png)
+![pointcloud](./picture/moveit/3DPerceptionSensors.png)
 ## 11.生成配置文件选择路径
 路径：/home/li/moveit_ws/src/panda_moveit_config
-![GenerateConfigFiles](./picture/GenerateConfigurationFiles.png)
+![GenerateConfigFiles](./picture/moveit/GenerateConfigurationFiles.png)
 # 下面就开始调试看看我们生成的文件可以被使用不
 ## 1.设置环境
 ```bash
@@ -213,7 +213,7 @@ sudo apt install ros-humble-controller-manager ros-humble-ros2-control ros-humbl
 ```bash
 ros2 launch panda_moveit_config demo.launch.py
 ```
-![demo](./picture/RVIZ2Result.png)
+![demo](./picture/moveit/RVIZ2Result.png)
 自此：这个moveit的配置文件就可以使用啦
 
 
