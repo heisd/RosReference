@@ -47,7 +47,9 @@ ros2 launch moveit_setup_assistant setup_assistant.launch.py
 
 ![image](./picture/planningGroup.png)
 
-#### 添加关节
+#### 添加关节，修复完成之后
+
+
 
 
 问题：使用moveit,现在使用WSL之后出现了闪退的情况,下面切换成树莓派试一下
@@ -119,7 +121,126 @@ rosdep2 update
 个人估计大概编译了1 hour，以前在jetson iron nano上使用虚拟内存可以加快编译速度。
 扩展虚拟内存可以看这个文章[WSL](./wsl.md)
 这样我们就可以加快编译速度啦
-按照这个文章操作完之后，
+按照这个文章操作完之后，还是出现加载不出来的问题
+
+```error
+[ERROR] [moveit_setup_assistant-1]: process has died [pid 1357, exit code -11, cmd '/opt/ros/humble/lib/moveit_setup_assistant/moveit_setup_assistant --ros-args']
+```
+通过这个网站解决
+<https://blog.csdn.net/weixin_46544694/article/details/151616523?ops_request_misc=%257B%2522request%255Fid%2522%253A%25221cfb6986c7c2e98ccd0d9d2a9aab7c49%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=1cfb6986c7c2e98ccd0d9d2a9aab7c49&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-151616523-null-null.nonecase&utm_term=%5BERROR%5D%20%5Bmoveit_setup_assistant-1%5D%3A%20process%20has%20died%20%5Bpid%201357%2C%20exit%20code%20-11%2C%20cmd%20%2Fopt%2Fros%2Fhumble%2Flib%2Fmoveit_setup_assistant%2Fmoveit_setup_assistant%20--ros-args%5D&spm=1018.2226.3001.4450>
+
+问题可能在于mobaxtermde1x server可能影响了WSL到Windows 11的显示
+只需要添加，为了防止我们忘记添加，给它添加到~/.zshrc里面
+
+```bash
+ export QT_QPA_PLATFORM=xcb
+ ```
+ 就可以了🤦‍♂️，前面那么久都没有正确修正这个问题，看到这里直接跳到
+ 不知为什这个不可以UUniversal_Robots_ROS2_Description这个包还是不可以用，那我们就用ROS2官方提供给我们的包来运行
+# 使用moveit_ws里的包来运行
+## 1.生成碰撞矩阵(和上一个包类似)
+## 2.添加虚拟关节
+![virtual joint](./picture/moveit4.png)
+## 3.添加计划组(主要是添加关节)
+下面是添加运动链条和关节的区别
+### 添加运动链(Add Kin.Chain)和添加关节(Add joints)的区别：
+#### 添加运动链：在机器人学中，运动链指的是从一个固定的基座到末端执行器之间的一系列通过关节连接起来的连杆。当你选择“添加运动链”时，你实际上是在定义一个从根节点到末端执行器的连续运动路径。这个选项允许你指定整个链条上的所有关节和连杆，这对于设置机械臂的整体运动范围非常有用。
+#### 添加关节：关节是连接两个刚体（通常是连杆）的元素，允许它们相对于彼此移动。根据关节类型的不同（旋转关节、棱形关节等），它可以提供一维或多维的自由度。当你选择“添加关节”时，你关注的是单独的可动点，即单个关节，而不是一系列连杆和关节组成的完整链条。这种方式更适合于需要对某个特定关节进行详细配置的情况。
+下面是配置关节的图片
+![](./picture/PlanningGroup1.png)
+添加完成之后结果如下
+![](./picture/PlanningGroup2.png)
+## 4.添加机器人姿势
+之后我们可以使用moveit api 使得机器人到达这个位置
+设置上次在计划组panda_arm和hand的机器人位姿设计如下
+### panda_arm
+![](./picture/RobotPose1.png)
+### hand
+![](./picture/RobotPose2.png)
+## 5.标记末端执行器
+具体设置如下
+![](./picture/EndEffectors.png)
+## 6.添加被动关节
+在对于这个Panda机械臂来说，没有任何被动关节，所以这个步骤可以跳过
+“被动关节”窗格旨在指定机器人中可能存在的任何被动关节。这些关节是非驱动关节，这意味着它们无法直接控制。指定被动关节非常重要，这样规划器才能感知到它们的存在，并避免为其进行规划。如果规划器不知道被动关节的存在，它们可能会尝试规划涉及移动被动关节的轨迹，从而导致规划无效。Panda 机械臂没有任何被动关节，因此我们将跳过此步骤。
+## 7.修改ROS2_control URDF
+就是把上次的URDF给一个编辑框，也不需要进行编写
+## 8.ROS2控制器
+操作如下
+![ROS2Controller1](./picture/ROS2Controller1.png)
+![ROS2Controller2](./picture/ROS2Controller2.png)
+![ROS2Controller3](./picture/ROS2Controller3.png)
+同样也要把配置文件放在规划组下hand
+结果如下图所示
+![ROS2Controller4](./picture/ROS2Controller4.png)
+## 9.Moveit控制器
+![MoveitController1](./picture/MoveitController1.png)
+同样也要把配置文件放在规划组下panda_arm
+![MoveitController2](./picture/MoveitController2.png)
+同样也要把配置文件放在规划组下hand
+## 10.setup 3D Perception Sensor
+设置助手中的“感知”选项卡用于配置机器人使用的 3D 传感器。这些设置保存在名为sensor_3d.yaml的 YAML 配置文件中。
+具体可以设置深度相机，或者激光雷达。
+如果不需要sensors_3d.yaml ，请选择“无”并继续下一步。
+要生成point_cloud配置参数，请参见以下示例：
+![pointcloud](./picture/3DPerceptionSensors.png)
+## 11.生成配置文件选择路径
+路径：/home/li/moveit_ws/src/panda_moveit_config
+![GenerateConfigFiles](./picture/GenerateConfigurationFiles.png)
+# 下面就开始调试看看我们生成的文件可以被使用不
+## 1.设置环境
+```bash
+cd ~/moveit_ws
+colcon build --packages-select panda_moveit_config
+source install/setup.zsh
+```
+## 2.运行panda_moveit_config
+```bash
+ros2 launch panda_moveit_config demo.launch.py
+```
+结果如下
+<font color="red">[ERROR] [launch]: Caught exception in launch (see debug for traceback): "package 'controller_manager' not found, searching: ['/home/li/moveit_ws/install/panda_moveit_config', '/home/li/Universal_Robots_ROS2_Description/install/ur_description', '/home/li/moveit_ws/install/moveit_resources', '/home/li/moveit_ws/install/moveit_resources_pr2_description', '/home/li/moveit_ws/install/moveit_resources_panda_moveit_config', '/home/li/moveit_ws/install/moveit_resources_panda_description', '/home/li/moveit_ws/install/moveit_resources_fanuc_moveit_config', '/home/li/moveit_ws/install/moveit_resources_fanuc_description', '/opt/ros/humble']
+</font>
+
+原因：包缺失
+
+```bash
+sudo apt update
+sudo apt install ros-humble-controller-manager ros-humble-ros2-control ros-humble-ros2-controllers
+```
+再次运行生成这个rviz可视化文件结果如图所示证明使用成功
+
+```bash
+ros2 launch panda_moveit_config demo.launch.py
+```
+![demo](./picture/RVIZ2Result.png)
+自此：这个moveit的配置文件就可以使用啦
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
