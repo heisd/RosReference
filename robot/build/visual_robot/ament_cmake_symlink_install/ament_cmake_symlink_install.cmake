@@ -310,6 +310,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(DIRECTORY "urdf" "src" "include" "meshes" "DESTINATION" "share/visual_robot")
+ament_cmake_symlink_install_directory("/home/li/reference/robot/src/visual_robot" DIRECTORY "urdf" "src" "include" "meshes" "DESTINATION" "share/visual_robot")
+
 # install(FILES "/home/li/reference/robot/build/visual_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/visual_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/li/reference/robot/src/visual_robot" FILES "/home/li/reference/robot/build/visual_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/visual_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

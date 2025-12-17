@@ -1,0 +1,62 @@
+[0.018s] Invoking command in '/home/li/reference/robot/build/robot_moveit_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/li/reference/robot/src/robot_moveit_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/li/reference/robot/install/robot_moveit_demo
+[0.291s] -- The C compiler identification is GNU 11.4.0
+[1.383s] -- The CXX compiler identification is GNU 11.4.0
+[2.270s] -- Detecting C compiler ABI info
+[2.437s] -- Detecting C compiler ABI info - done
+[2.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.442s] -- Detecting C compile features
+[2.443s] -- Detecting C compile features - done
+[2.445s] -- Detecting CXX compiler ABI info
+[2.796s] -- Detecting CXX compiler ABI info - done
+[2.800s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.800s] -- Detecting CXX compile features
+[2.800s] -- Detecting CXX compile features - done
+[2.807s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.909s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.956s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.985s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.244s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.248s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.257s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.330s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.333s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.753s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.171s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.433s] -- Looking for pthread.h
+[8.592s] -- Looking for pthread.h - found
+[8.592s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.932s] -- Found Threads: TRUE  
+[8.988s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[10.280s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.342s] -- Added test 'lint_cmake' to check CMake code style
+[10.343s] -- Added test 'xmllint' to check XML markup files
+[10.345s] -- Configuring done
+[10.350s] -- Generating done
+[10.352s] -- Build files have been written to: /home/li/reference/robot/build/robot_moveit_demo
+[10.360s] Invoked command in '/home/li/reference/robot/build/robot_moveit_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/li/reference/robot/src/robot_moveit_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/li/reference/robot/install/robot_moveit_demo
+[10.362s] Invoking command in '/home/li/reference/robot/build/robot_moveit_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/li/reference/robot/build/robot_moveit_demo -- -j16 -l16
+[10.384s] Invoked command in '/home/li/reference/robot/build/robot_moveit_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/li/reference/robot/build/robot_moveit_demo -- -j16 -l16
+[10.390s] Invoking command in '/home/li/reference/robot/build/robot_moveit_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/li/reference/robot/build/robot_moveit_demo
+[10.394s] -- Install configuration: ""
+[10.394s] -- Execute custom install script
+[10.395s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/urdf/li.urdf
+[10.400s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/ament_index/resource_index/package_run_dependencies/robot_moveit_demo
+[10.406s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/ament_index/resource_index/parent_prefix_path/robot_moveit_demo
+[10.412s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/environment/ament_prefix_path.sh
+[10.418s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/environment/ament_prefix_path.dsv
+[10.423s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/environment/path.sh
+[10.428s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/environment/path.dsv
+[10.433s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/local_setup.bash
+[10.439s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/local_setup.sh
+[10.445s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/local_setup.zsh
+[10.450s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/local_setup.dsv
+[10.455s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/package.dsv
+[10.460s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/ament_index/resource_index/packages/robot_moveit_demo
+[10.465s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/cmake/robot_moveit_demoConfig.cmake
+[10.469s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/cmake/robot_moveit_demoConfig-version.cmake
+[10.475s] -- Symlinking: /home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/package.xml
+[10.481s] Invoked command in '/home/li/reference/robot/build/robot_moveit_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/li/reference/robot/build/robot_moveit_demo

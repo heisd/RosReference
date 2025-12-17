@@ -391,9 +391,6 @@ libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/c
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/humble/share/libyaml_vendor/cmake
 
-//The directory containing a CMake configuration file for msg.
-msg_DIR:PATH=msg_DIR-NOTFOUND
-
 //Path to a library.
 onelib:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so
 

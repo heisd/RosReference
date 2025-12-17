@@ -22,5 +22,10 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+# 添加这一行
+# 
+install(DIRECTORY urdf src include meshes DESTINATION share/${PROJECT_NAME})
+# 重新编译而且source之后再运行
+
 
 ament_package()

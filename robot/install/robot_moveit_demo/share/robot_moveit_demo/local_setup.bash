@@ -1,0 +1,1 @@
+/home/li/reference/robot/build/robot_moveit_demo/ament_cmake_environment_hooks/local_setup.bash

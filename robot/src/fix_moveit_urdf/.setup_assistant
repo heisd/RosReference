@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: visual_robot
+    relative_path: urdf/robot.urdf
+  srdf:
+    relative_path: config/visual_robot.srdf
+  package_settings:
+    author_name: li
+    author_email: 2284610019@qq.com
+    generated_timestamp: 1765949822

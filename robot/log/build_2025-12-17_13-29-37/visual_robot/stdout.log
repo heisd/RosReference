@@ -1,0 +1,131 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/li/reference/robot/build/visual_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/urdf/robot.urdf
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine001_1.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine002_2.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine003_3.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine004_4.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine005_5.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine006_6.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine007_7.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine008_8.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine009_9.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine010_10.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine011_11.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine012_12.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine013_13.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine014_14.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine015_15.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine016_16.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine017_17.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine018_18.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine019_19.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine020_20.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine021_21.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine022_22.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine023_23.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine024_24.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine025_25.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine026_26.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine027_27.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine028_28.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine029_29.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine030_30.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine031_31.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine032_32.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine033_33.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine034_34.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine035_35.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine036_36.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine037_37.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine038_38.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine039_39.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine040_40.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine041_41.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine042_42.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine043_43.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine044_44.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine045_45.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine046_46.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine047_47.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine048_48.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine049_49.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine050_50.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine051_51.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine052_52.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine053_53.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine054_54.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine055_55.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine056_56.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine057_57.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine058_58.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine059_59.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine060_60.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine061_61.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine062_62.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine063_63.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine064_64.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine065_65.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine066_66.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine067_67.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine068_68.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine069_69.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine070_70.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine071_71.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine072_72.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine073_73.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine074_74.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/meshes/robotic_arm_mine_0.stl
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/ament_index/resource_index/package_run_dependencies/visual_robot
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/ament_index/resource_index/parent_prefix_path/visual_robot
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/environment/path.sh
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/environment/path.dsv
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/local_setup.bash
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/local_setup.sh
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/local_setup.zsh
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/local_setup.dsv
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/package.dsv
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/ament_index/resource_index/packages/visual_robot
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/cmake/visual_robotConfig.cmake
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/cmake/visual_robotConfig-version.cmake
+-- Symlinking: /home/li/reference/robot/install/visual_robot/share/visual_robot/package.xml

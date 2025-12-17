@@ -1,0 +1,16 @@
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/urdf/li.urdf
+/home/li/reference/robot/install/robot_moveit_demo/share/ament_index/resource_index/package_run_dependencies/robot_moveit_demo
+/home/li/reference/robot/install/robot_moveit_demo/share/ament_index/resource_index/parent_prefix_path/robot_moveit_demo
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/environment/ament_prefix_path.sh
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/environment/ament_prefix_path.dsv
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/environment/path.sh
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/environment/path.dsv
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/local_setup.bash
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/local_setup.sh
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/local_setup.zsh
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/local_setup.dsv
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/package.dsv
+/home/li/reference/robot/install/robot_moveit_demo/share/ament_index/resource_index/packages/robot_moveit_demo
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/cmake/robot_moveit_demoConfig.cmake
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/cmake/robot_moveit_demoConfig-version.cmake
+/home/li/reference/robot/install/robot_moveit_demo/share/robot_moveit_demo/package.xml
