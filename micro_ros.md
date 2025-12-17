@@ -70,6 +70,13 @@ ros2 topic pub /led_color std_msgs/msg/ColorRGBA "{r: 1.0, g: 0.5, b: 0.0, a: 1.
 昨天在又写一个Servo的控制的程序
 就是纯通过下位机也就是ESP32通过串口来控制舵机
 
+具体思路如下
+1.选择舵机
+2.执行命令
+
+
+
+
 
 
 
