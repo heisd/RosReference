@@ -1,0 +1,2 @@
+Invoking command in '/home/li/reference/robot/build/descripition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/li/reference/robot/src/descripition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/li/reference/robot/install/descripition
+Invoked command in '/home/li/reference/robot/build/descripition' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/li/reference/robot/src/descripition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/li/reference/robot/install/descripition

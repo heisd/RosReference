@@ -1,0 +1,6 @@
+Invoking command in '/home/li/reference/robot/build/visual_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/li/reference/robot/src/visual_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/li/reference/robot/install/visual_robot
+Invoked command in '/home/li/reference/robot/build/visual_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/li/reference/robot/src/visual_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/li/reference/robot/install/visual_robot
+Invoking command in '/home/li/reference/robot/build/visual_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/li/reference/robot/build/visual_robot -- -j16 -l16
+Invoked command in '/home/li/reference/robot/build/visual_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/li/reference/robot/build/visual_robot -- -j16 -l16
+Invoking command in '/home/li/reference/robot/build/visual_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/li/reference/robot/build/visual_robot
+Invoked command in '/home/li/reference/robot/build/visual_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/li/reference/robot/build/visual_robot

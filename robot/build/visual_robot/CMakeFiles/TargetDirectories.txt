@@ -1,0 +1,9 @@
+/home/li/reference/robot/build/visual_robot/CMakeFiles/uninstall.dir
+/home/li/reference/robot/build/visual_robot/CMakeFiles/visual_robot_uninstall.dir
+/home/li/reference/robot/build/visual_robot/CMakeFiles/test.dir
+/home/li/reference/robot/build/visual_robot/CMakeFiles/edit_cache.dir
+/home/li/reference/robot/build/visual_robot/CMakeFiles/rebuild_cache.dir
+/home/li/reference/robot/build/visual_robot/CMakeFiles/list_install_components.dir
+/home/li/reference/robot/build/visual_robot/CMakeFiles/install.dir
+/home/li/reference/robot/build/visual_robot/CMakeFiles/install/local.dir
+/home/li/reference/robot/build/visual_robot/CMakeFiles/install/strip.dir

@@ -1,0 +1,15 @@
+/home/li/reference/robot/install/visual_robot/share/ament_index/resource_index/package_run_dependencies/visual_robot
+/home/li/reference/robot/install/visual_robot/share/ament_index/resource_index/parent_prefix_path/visual_robot
+/home/li/reference/robot/install/visual_robot/share/visual_robot/environment/ament_prefix_path.sh
+/home/li/reference/robot/install/visual_robot/share/visual_robot/environment/ament_prefix_path.dsv
+/home/li/reference/robot/install/visual_robot/share/visual_robot/environment/path.sh
+/home/li/reference/robot/install/visual_robot/share/visual_robot/environment/path.dsv
+/home/li/reference/robot/install/visual_robot/share/visual_robot/local_setup.bash
+/home/li/reference/robot/install/visual_robot/share/visual_robot/local_setup.sh
+/home/li/reference/robot/install/visual_robot/share/visual_robot/local_setup.zsh
+/home/li/reference/robot/install/visual_robot/share/visual_robot/local_setup.dsv
+/home/li/reference/robot/install/visual_robot/share/visual_robot/package.dsv
+/home/li/reference/robot/install/visual_robot/share/ament_index/resource_index/packages/visual_robot
+/home/li/reference/robot/install/visual_robot/share/visual_robot/cmake/visual_robotConfig.cmake
+/home/li/reference/robot/install/visual_robot/share/visual_robot/cmake/visual_robotConfig-version.cmake
+/home/li/reference/robot/install/visual_robot/share/visual_robot/package.xml

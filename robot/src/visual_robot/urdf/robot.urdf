@@ -1,0 +1,1349 @@
+<?xml version="1.0"?>
+<robot name="visual_robot">
+
+  <link name="robotic_arm_mine_0">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine_0.stl" />
+      </geometry>
+      <material name="part_color_0">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine001_1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine001_1.stl" />
+      </geometry>
+      <material name="part_color_1">
+        <color rgba="0.6 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine002_2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine002_2.stl" />
+      </geometry>
+      <material name="part_color_2">
+        <color rgba="0.7 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine003_3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine003_3.stl" />
+      </geometry>
+      <material name="part_color_3">
+        <color rgba="0.8 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine004_4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine004_4.stl" />
+      </geometry>
+      <material name="part_color_4">
+        <color rgba="0.9 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine005_5">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine005_5.stl" />
+      </geometry>
+      <material name="part_color_5">
+        <color rgba="0.5 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine006_6">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine006_6.stl" />
+      </geometry>
+      <material name="part_color_6">
+        <color rgba="0.6 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine007_7">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine007_7.stl" />
+      </geometry>
+      <material name="part_color_7">
+        <color rgba="0.7 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine008_8">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine008_8.stl" />
+      </geometry>
+      <material name="part_color_8">
+        <color rgba="0.8 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine009_9">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine009_9.stl" />
+      </geometry>
+      <material name="part_color_9">
+        <color rgba="0.9 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine010_10">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine010_10.stl" />
+      </geometry>
+      <material name="part_color_10">
+        <color rgba="0.5 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine011_11">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine011_11.stl" />
+      </geometry>
+      <material name="part_color_11">
+        <color rgba="0.6 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine012_12">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine012_12.stl" />
+      </geometry>
+      <material name="part_color_12">
+        <color rgba="0.7 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine013_13">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine013_13.stl" />
+      </geometry>
+      <material name="part_color_13">
+        <color rgba="0.8 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine014_14">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine014_14.stl" />
+      </geometry>
+      <material name="part_color_14">
+        <color rgba="0.9 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine015_15">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine015_15.stl" />
+      </geometry>
+      <material name="part_color_15">
+        <color rgba="0.5 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine016_16">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine016_16.stl" />
+      </geometry>
+      <material name="part_color_16">
+        <color rgba="0.6 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine017_17">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine017_17.stl" />
+      </geometry>
+      <material name="part_color_17">
+        <color rgba="0.7 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine018_18">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine018_18.stl" />
+      </geometry>
+      <material name="part_color_18">
+        <color rgba="0.8 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine019_19">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine019_19.stl" />
+      </geometry>
+      <material name="part_color_19">
+        <color rgba="0.9 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine020_20">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine020_20.stl" />
+      </geometry>
+      <material name="part_color_20">
+        <color rgba="0.5 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine021_21">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine021_21.stl" />
+      </geometry>
+      <material name="part_color_21">
+        <color rgba="0.6 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine022_22">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine022_22.stl" />
+      </geometry>
+      <material name="part_color_22">
+        <color rgba="0.7 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine023_23">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine023_23.stl" />
+      </geometry>
+      <material name="part_color_23">
+        <color rgba="0.8 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine024_24">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine024_24.stl" />
+      </geometry>
+      <material name="part_color_24">
+        <color rgba="0.9 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine025_25">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine025_25.stl" />
+      </geometry>
+      <material name="part_color_25">
+        <color rgba="0.5 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine026_26">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine026_26.stl" />
+      </geometry>
+      <material name="part_color_26">
+        <color rgba="0.6 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine027_27">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine027_27.stl" />
+      </geometry>
+      <material name="part_color_27">
+        <color rgba="0.7 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine028_28">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine028_28.stl" />
+      </geometry>
+      <material name="part_color_28">
+        <color rgba="0.8 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine029_29">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine029_29.stl" />
+      </geometry>
+      <material name="part_color_29">
+        <color rgba="0.9 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine030_30">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine030_30.stl" />
+      </geometry>
+      <material name="part_color_30">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine031_31">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine031_31.stl" />
+      </geometry>
+      <material name="part_color_31">
+        <color rgba="0.6 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine032_32">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine032_32.stl" />
+      </geometry>
+      <material name="part_color_32">
+        <color rgba="0.7 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine033_33">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine033_33.stl" />
+      </geometry>
+      <material name="part_color_33">
+        <color rgba="0.8 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine034_34">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine034_34.stl" />
+      </geometry>
+      <material name="part_color_34">
+        <color rgba="0.9 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine035_35">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine035_35.stl" />
+      </geometry>
+      <material name="part_color_35">
+        <color rgba="0.5 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine036_36">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine036_36.stl" />
+      </geometry>
+      <material name="part_color_36">
+        <color rgba="0.6 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine037_37">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine037_37.stl" />
+      </geometry>
+      <material name="part_color_37">
+        <color rgba="0.7 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine038_38">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine038_38.stl" />
+      </geometry>
+      <material name="part_color_38">
+        <color rgba="0.8 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine039_39">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine039_39.stl" />
+      </geometry>
+      <material name="part_color_39">
+        <color rgba="0.9 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine040_40">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine040_40.stl" />
+      </geometry>
+      <material name="part_color_40">
+        <color rgba="0.5 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine041_41">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine041_41.stl" />
+      </geometry>
+      <material name="part_color_41">
+        <color rgba="0.6 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine042_42">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine042_42.stl" />
+      </geometry>
+      <material name="part_color_42">
+        <color rgba="0.7 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine043_43">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine043_43.stl" />
+      </geometry>
+      <material name="part_color_43">
+        <color rgba="0.8 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine044_44">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine044_44.stl" />
+      </geometry>
+      <material name="part_color_44">
+        <color rgba="0.9 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine045_45">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine045_45.stl" />
+      </geometry>
+      <material name="part_color_45">
+        <color rgba="0.5 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine046_46">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine046_46.stl" />
+      </geometry>
+      <material name="part_color_46">
+        <color rgba="0.6 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine047_47">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine047_47.stl" />
+      </geometry>
+      <material name="part_color_47">
+        <color rgba="0.7 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine048_48">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine048_48.stl" />
+      </geometry>
+      <material name="part_color_48">
+        <color rgba="0.8 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine049_49">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine049_49.stl" />
+      </geometry>
+      <material name="part_color_49">
+        <color rgba="0.9 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine050_50">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine050_50.stl" />
+      </geometry>
+      <material name="part_color_50">
+        <color rgba="0.5 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine051_51">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine051_51.stl" />
+      </geometry>
+      <material name="part_color_51">
+        <color rgba="0.6 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine052_52">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine052_52.stl" />
+      </geometry>
+      <material name="part_color_52">
+        <color rgba="0.7 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine053_53">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine053_53.stl" />
+      </geometry>
+      <material name="part_color_53">
+        <color rgba="0.8 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine054_54">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine054_54.stl" />
+      </geometry>
+      <material name="part_color_54">
+        <color rgba="0.9 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine055_55">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine055_55.stl" />
+      </geometry>
+      <material name="part_color_55">
+        <color rgba="0.5 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine056_56">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine056_56.stl" />
+      </geometry>
+      <material name="part_color_56">
+        <color rgba="0.6 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine057_57">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine057_57.stl" />
+      </geometry>
+      <material name="part_color_57">
+        <color rgba="0.7 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine058_58">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine058_58.stl" />
+      </geometry>
+      <material name="part_color_58">
+        <color rgba="0.8 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine059_59">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine059_59.stl" />
+      </geometry>
+      <material name="part_color_59">
+        <color rgba="0.9 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine060_60">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine060_60.stl" />
+      </geometry>
+      <material name="part_color_60">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine061_61">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine061_61.stl" />
+      </geometry>
+      <material name="part_color_61">
+        <color rgba="0.6 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine062_62">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine062_62.stl" />
+      </geometry>
+      <material name="part_color_62">
+        <color rgba="0.7 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine063_63">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine063_63.stl" />
+      </geometry>
+      <material name="part_color_63">
+        <color rgba="0.8 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine064_64">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine064_64.stl" />
+      </geometry>
+      <material name="part_color_64">
+        <color rgba="0.9 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine065_65">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine065_65.stl" />
+      </geometry>
+      <material name="part_color_65">
+        <color rgba="0.5 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine066_66">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine066_66.stl" />
+      </geometry>
+      <material name="part_color_66">
+        <color rgba="0.6 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine067_67">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine067_67.stl" />
+      </geometry>
+      <material name="part_color_67">
+        <color rgba="0.7 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine068_68">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine068_68.stl" />
+      </geometry>
+      <material name="part_color_68">
+        <color rgba="0.8 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine069_69">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine069_69.stl" />
+      </geometry>
+      <material name="part_color_69">
+        <color rgba="0.9 0.5 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine070_70">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine070_70.stl" />
+      </geometry>
+      <material name="part_color_70">
+        <color rgba="0.5 0.6 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine071_71">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine071_71.stl" />
+      </geometry>
+      <material name="part_color_71">
+        <color rgba="0.6 0.7 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine072_72">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine072_72.stl" />
+      </geometry>
+      <material name="part_color_72">
+        <color rgba="0.7 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine073_73">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine073_73.stl" />
+      </geometry>
+      <material name="part_color_73">
+        <color rgba="0.8 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="robotic_arm_mine074_74">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://visual_robot/meshes/robotic_arm_mine074_74.stl" />
+      </geometry>
+      <material name="part_color_74">
+        <color rgba="0.9 0.7 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+
+  <joint name="joint_1" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine001_1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_2" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine002_2"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_3" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine003_3"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_4" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine004_4"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_5" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine005_5"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_6" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine006_6"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_7" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine007_7"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_8" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine008_8"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_9" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine009_9"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_10" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine010_10"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_11" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine011_11"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_12" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine012_12"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_13" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine013_13"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_14" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine014_14"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_15" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine015_15"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_16" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine016_16"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_17" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine017_17"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_18" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine018_18"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_19" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine019_19"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_20" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine020_20"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_21" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine021_21"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_22" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine022_22"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_23" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine023_23"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_24" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine024_24"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_25" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine025_25"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_26" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine026_26"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_27" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine027_27"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_28" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine028_28"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_29" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine029_29"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_30" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine030_30"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_31" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine031_31"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_32" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine032_32"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_33" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine033_33"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_34" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine034_34"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_35" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine035_35"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_36" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine036_36"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_37" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine037_37"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_38" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine038_38"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_39" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine039_39"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_40" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine040_40"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_41" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine041_41"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_42" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine042_42"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_43" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine043_43"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_44" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine044_44"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_45" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine045_45"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_46" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine046_46"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_47" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine047_47"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_48" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine048_48"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_49" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine049_49"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_50" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine050_50"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_51" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine051_51"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_52" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine052_52"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_53" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine053_53"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_54" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine054_54"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_55" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine055_55"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_56" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine056_56"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_57" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine057_57"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_58" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine058_58"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_59" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine059_59"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_60" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine060_60"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_61" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine061_61"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_62" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine062_62"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_63" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine063_63"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_64" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine064_64"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_65" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine065_65"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_66" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine066_66"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_67" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine067_67"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_68" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine068_68"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_69" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine069_69"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_70" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine070_70"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_71" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine071_71"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_72" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine072_72"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_73" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine073_73"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_74" type="fixed">
+    <parent link="robotic_arm_mine_0"/>
+    <child link="robotic_arm_mine074_74"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+</robot>
