@@ -2,13 +2,17 @@
 参考链接：<https://zhuanlan.zhihu.com/p/1920253906883187153>
 ## 克隆包的命令
 ```bash
+# 安装我们的Moveit组件
+  sudo apt update
+  sudo apt install ros-humble-moveit-setup-assistant
+# 安装模型包
 git clone -b humble https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
 ```
 ## 构建包并且使用包
 放在我们的根目录下啦
 之后构建我们的包,并且source工作空间
 ```bash
-colcon build 
+colcon build --select-packages ur_description
 source ./install/setup.zsh
 # 生成静态urdf文件,禁用机器人控制，否则我们加载这个的时候会导致moveit崩溃
 xacro urdf/ur.urdf.xacro ur_type:=ur5e name:=ur generate_ros2_control_tag:=false > ur5e_no_control.urdf
